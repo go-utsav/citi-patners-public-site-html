@@ -275,3 +275,30 @@ main {
     padding: 0.5rem 0.3rem !important;
   }
 }
+/* contact us section */
+
+/* Page title section spacing */
+.page-title-section {
+  margin-top: 120px; /* Adjust based on your navbar height */
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.page-title {
+  color: #1a1a1a;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .page-title-section {
+    margin-top: 100px;
+    padding: 30px 0;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+}
