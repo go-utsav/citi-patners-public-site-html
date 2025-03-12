@@ -302,3 +302,149 @@ main {
     font-size: 2rem;
   }
 }
+
+/* Our People Section Styles */
+.profile-image-container {
+    position: relative;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    border: 8px solid #D4AF37;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-credentials {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.profile-content {
+    position: relative;
+}
+
+.experience-box, .islamic-finance-box {
+    border-left: 4px solid #D4AF37;
+    transition: transform 0.3s ease;
+}
+
+.experience-box:hover, .islamic-finance-box:hover {
+    transform: translateX(10px);
+}
+
+.fun-fact {
+    background-color: #D4AF37 !important;
+    transition: transform 0.3s ease;
+}
+
+.fun-fact:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .profile-image-container {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 2rem;
+    }
+    
+    .profile-credentials {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-image-container {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Islamic Finance Page Styles */
+.islamic-hero-section {
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/Islamic Finance Solutions.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.min-vh-50 {
+    min-height: 50vh;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.text-primary {
+    color: #D4AF37 !important;
+}
+
+.btn-primary {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+}
+
+.btn-primary:hover {
+    background-color: #c4a032;
+    border-color: #c4a032;
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.hero-image-container {
+    position: relative;
+    padding: 20px;
+}
+
+.hero-rounded-image {
+    width: 100%;
+    max-width: 450px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    border: 5px solid rgba(212, 175, 55, 0.3); /* Golden border with transparency */
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .hero-rounded-image {
+        height: 300px;
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-rounded-image {
+        height: 250px;
+        max-width: 300px;
+    }
+    
+    .islamic-hero-section {
+        margin-top: 76px;
+    }
+}
