@@ -448,3 +448,357 @@ main {
         margin-top: 76px;
     }
 }
+
+/* Clients Page Styles */
+.clients-hero-section {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/trusted-partners.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 90px;
+}
+
+.partner-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.partner-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.partner-logo-container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+}
+
+.partner-logo {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.partner-card:hover .partner-logo {
+    filter: grayscale(0%);
+}
+
+.partner-name {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #333;
+    text-align: center;
+}
+
+.cta-box {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-left: 5px solid #D4AF37;
+}
+
+.btn-primary {
+    background-color: #D4AF37;
+    border-color: #D4AF37;
+}
+
+.btn-primary:hover {
+    background-color: #c4a032;
+    border-color: #c4a032;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .clients-hero-section {
+        margin-top: 76px;
+        min-height: 300px;
+    }
+    
+    .partner-logo-container {
+        min-height: 150px;
+    }
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+    background-color: #1a1a1a;
+    border: none;
+    border-radius: 0;
+    margin-top: 0;
+    padding: 0.5rem 0;
+}
+
+.dropdown-item {
+    color: #fff;
+    font-size: 0.875rem;
+    padding: 0.5rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #D4AF37;
+    color: #1a1a1a;
+}
+
+/* Mobile Responsive */
+@media (max-width: 991px) {
+    .dropdown-menu {
+        background-color: transparent;
+        border: none;
+        padding-left: 1rem;
+    }
+    
+    .dropdown-item {
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* protecting your lifestyle section */
+
+/* Protection Services Styles */
+.protecting-service-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/close-up-hands-with-family-figure-concept.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    margin-top: 90px;
+}
+
+.protecting-service-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.protecting-service-image-container {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+.protecting-service-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.protecting-service-image:hover {
+    transform: scale(1.05);
+}
+
+.protecting-service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.protecting-service-card:hover {
+    transform: translateY(-10px);
+}
+
+.protecting-service-icon {
+    font-size: 2.5rem;
+    color: #D4AF37;
+    margin-bottom: 1.5rem;
+}
+
+.protecting-service-feature-box {
+    background: #f8f9fa;
+    padding: 3rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+.protecting-service-process {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.protecting-service-step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.step-number {
+    background: #D4AF37;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.protecting-service-review-box {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .protecting-service-hero {
+        margin-top: 76px;
+    }
+    
+    .protecting-service-image {
+        height: 300px;
+    }
+    
+    .protecting-service-feature-box {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .protecting-service-process {
+        margin-top: 2rem;
+    }
+}
+
+/* securing your retirement section */
+
+/* Retirement Services Styles */
+.retirement-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/secure\ retirement\ planning.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    margin-top: 90px;
+}
+
+.retirement-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.retirement-hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.retirement-section-image {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.retirement-info-box {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 15px;
+    border-left: 5px solid #D4AF37;
+}
+
+.retirement-service-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    height: 100%;
+}
+
+.retirement-service-card:hover {
+    transform: translateY(-10px);
+}
+
+.retirement-service-icon {
+    font-size: 2.5rem;
+    color: #D4AF37;
+    margin-bottom: 1.5rem;
+}
+
+.retirement-feature-box {
+    background: #f8f9fa;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.retirement-step {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.step-number {
+    background: #D4AF37;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.retirement-review-box {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .retirement-hero {
+        margin-top: 76px;
+    }
+    
+    .retirement-hero-image {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    .retirement-section-image {
+        height: 250px;
+        margin-top: 2rem;
+    }
+    
+    .retirement-feature-box {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .retirement-step {
+        padding: 1.5rem;
+    }
+}
+
