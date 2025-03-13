@@ -30,12 +30,19 @@
         <div class="container">
           <div class="row">
             <div class="col-12">
-              <div class="d-flex justify-content-end">
-                <a href="tel:0203 440 7150" class="text-white text-decoration-none me-4">
-                  <i class="fas fa-phone me-2"></i>0203 440 7150
-                </a>
-                <a href="mailto:info@citipartners.co.uk" class="text-white text-decoration-none">
-                  <i class="fas fa-envelope me-2"></i>info@citipartners.co.uk
+              <div class="d-flex justify-content-end align-items-center">
+                <!-- Contact Information -->
+                <div class="me-4">
+                  <a href="tel:0203 440 7150" class="text-white text-decoration-none me-4">
+                    <i class="fas fa-phone me-2"></i>0203 440 7150
+                  </a>
+                  <a href="mailto:info@citipartners.co.uk" class="text-white text-decoration-none">
+                    <i class="fas fa-envelope me-2"></i>info@citipartners.co.uk
+                  </a>
+                </div>
+                <!-- Book Appointment Button -->
+                <a href="contact-us.html" class="btn btn-book-appointment">
+                  <i class="fas fa-calendar-check me-2"></i>Book Appointment
                 </a>
               </div>
             </div>
@@ -61,6 +68,24 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link small px-2 text-white" href="index.html">HOME</a>
+              </li>
+               <!-- Desktop Navigation - About Us Dropdown -->
+               <li class="nav-item dropdown">
+                <a class="nav-link small px-2 text-white dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    ABOUT US
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="aboutDropdown">
+                    <li>
+                        <a class="dropdown-item" href="our-people.html">
+                            <i class="fas fa-users me-2"></i>Our People
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="our-clients.html">
+                            <i class="fas fa-handshake me-2"></i>Our Clients
+                        </a>
+                    </li>
+                </ul>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link small px-2 text-white dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -112,12 +137,28 @@
               <li class="nav-item">
                 <a class="nav-link small px-2 text-white" href="islamic-finance.html">ISLAMIC FINANCE</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link small px-2 text-white" href="#premier">CP PREMIER</a>
+               <!-- Desktop Navigation - About Us Dropdown -->
+               <li class="nav-item dropdown">
+                <a class="nav-link small px-2 text-white dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    CP CLIENTS
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="aboutDropdown">
+                    <li>
+                        <a class="dropdown-item" href="https://identity.gb.intelliflo.net/core/Identity/Account/Login?ReturnUrl=%2Fcore%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dio_web_client%26redirect_uri%3Dhttps%253A%252F%252Foffice.gb.intelliflo.net%252Fui-io%252Fsignin-oidc%26response_type%3Dcode%26prompt%3Dlogin%26scope%3Dopenid%2520client_data%2520client_financial_data%2520firm_data%2520fund_data%2520offline_access%2520valuation_batch%26code_challenge%3DglpebvALJLQYkRPDfulO59XZ_YyhkbsFuLhqWt72R9o%26code_challenge_method%3DS256%26response_mode%3Dform_post%26nonce%3D638774609564968465.MTFmOWNlZTgtOTYxMS00OGE2LTkyY2UtNmU0Mjc5NDg5Yjg3NzIxY2I5OTctOWQwMS00NjNhLThjYTYtMmU1ZjQwNzdlMjhi%26io_datetime%3D2025-03-13T11%253A09%253A16%26state%3DCfDJ8BERERERERERERERERERERFoASKKUZcM9Hew9RyG2e2AthSoUVgHQexbdyqdE8tW6xBjrOcQsPPKlVfZMI4DG65MAQCvJ2eGVmBasZXiRYewE1oJ77IES_Rsj61N0Vq3ghmcdpEUn7au0y472G-L-txN-5N91q4Uwopzxzl0XtHg6RGXyNZEuz1-ASFp1s-k7Tem-EVJw75z18IuJYtRLEGmYy82MLLO5hmQxRqr8JOZzzj-x9pavv8xyFEW-mthA4GAUuvKpn-_xdsbqYUl9PjAnOOAO22snTMeJxrnDY0jqnSEioBUE1PrBx9W07RGY6M8auYIM1f18Ghy0uf2NrkA_Uf1mNDt3ZXUtUYOqjx8emTMJdpZVRsxQeqahIv_pAgPWv8wLwW0XyVfhDTlPkXqBXBpytO1HQodmcLdxh_mNPit966rHsd5gh2SXGeQWA%26x-client-SKU%3DID_NET8_0%26x-client-ver%3D8.1.2.0%26suppressed_prompt%3Dlogin">
+                           Intellifflo Login
+                        </a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="https://identity.distribution-technology.com/identity/Account/Login?ReturnUrl=%2Fidentity%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3DDP.Application.DynamicPlanner.Home%26redirect_uri%3Dhttps%253A%252F%252Fapp.dynamicplanner.com%252Fhome%252Fsignin-oidc%26response_type%3Dcode%2520id_token%26scope%3Dopenid%2520organisation%2520employee%2520device%2520offline_access%2520CPS_Clients_Read%2520CPS_BusinessProcessInstances_Read%2520CS_Catalogues_Read%2520CS_ContentAssets_Read%2520CS_OrganisationUnits_Read%2520DS_Clients%2520DS_Employees%2520DS_OrganisationUnits_Read%2520DS_Config_Read%2520DS_ClientLoginGroup%2520DSS_Clients_Read%2520DSS_Documents%2520DSS_DocumentTemplate_Read%2520FR_Read%2520FR_Config%2520FR_Shortlists%2520FR_ModelPortfolios%2520PR_Read%2520PR_ResearchPanels%2520PS_Analyses%2520PS_Arrangements%2520PS_Assumptions_Read%2520PS_Calculators%2520PS_Clients%2520PS_Config_Read%2520PS_Forecasts%2520PS_RiskModels_Read%2520PS_Scenarios%2520PS_TargetMarkets%2520PS_Plans%2520QS_Questionnaires_Read%2520QS_Results%2520RS_Clients_Read%2520RS_BusinessProcessInstances_Read%2520VS_Config%2520VS_Clients%2520VS_Arrangements%26max_age%3D43200%26response_mode%3Dform_post%26nonce%3D638774610093355378.MzVkYjYzOGQtNzAzYy00NGYzLWFlZTctMmQwMTM5ODkwYzhlM2RiYzFjZjItMGNjYi00NGVmLWI1OTYtZTY4M2ZiMThiNmMz%26state%3DCfDJ8Cb00mdBZclLpOBQRKBpM_aYngrK-mpDjVDw2IvdCDuc492_1_-6eA9YDd_Y3wR9Ex3NPerW0EUs4ghpUanbk2HATa5rlHWd2SW5_91U5Ri-S_5vQWcBFjIR-8tpIGyslKKFjT-Qg4txdVzUD0RXJ4QizM6JdrNigAtwfCNI0TqRGUwC2ZxL_vDsKe3mKyqYfLoFlHP9omtaRaN790HSm30QpKaDSv9hZ1pqxWeprsvAHJMWMWt4MSENdIaGa5Bp17DnrnII0bTF7ICZRA2_mQvfR7IjTY6vt5ppfwS_YXslOb6hvDMDSZIpde_aywPE8A%26x-client-SKU%3DID_NET8_0%26x-client-ver%3D8.1.2.0">
+                          Dynamic Planner Login
+                        </a>
+                    </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link small px-2 text-white" href="contact-us.html">CONTACT</a>
               </li>
+             
             </ul>
           </div>
         </div>
@@ -135,8 +176,22 @@
           <li class="nav-item">
             <a class="nav-link small px-2" href="index.html">HOME</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link small px-2" href="#about">ABOUT US</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link small px-2 text-white dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                ABOUT US
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="aboutDropdown">
+                <li>
+                    <a class="dropdown-item" href="our-people.html">
+                        <i class="fas fa-users me-2"></i>Our People
+                    </a>
+                </li>
+                <li>
+                    <a class="dropdown-item" href="our-clients.html">
+                        <i class="fas fa-handshake me-2"></i>Our Clients
+                    </a>
+                </li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link small px-2" href="our-people.html">OUR PEOPLE</a>
@@ -199,6 +254,28 @@
           </li>
           <li class="nav-item">
             <a class="nav-link small px-2" href="contact-us.html">CONTACT</a>
+          </li>
+          <!-- Mobile Navigation - About Us Accordion -->
+          <li class="nav-item">
+            <a class="nav-link small px-2 d-flex justify-content-between align-items-center" 
+               data-bs-toggle="collapse" 
+               href="#mobileAbout" 
+               role="button" 
+               aria-expanded="false" 
+               aria-controls="mobileAbout">
+                ABOUT US
+                <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="collapse" id="mobileAbout">
+                <div class="mobile-submenu">
+                    <a href="our-people.html" class="mobile-submenu-link">
+                        <i class="fas fa-users me-2"></i>Our People
+                    </a>
+                    <a href="our-clients.html" class="mobile-submenu-link">
+                        <i class="fas fa-handshake me-2"></i>Our Clients
+                    </a>
+                </div>
+            </div>
           </li>
         </ul>
       </div>
@@ -339,16 +416,53 @@
           </div>
 
           <!-- Our Services -->
-          <div class="col-lg-3 col-md-6">
-            <h5 class="text-white mb-4">Our Services</h5>
-            <ul class="list-unstyled">
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Mortgage Solutions</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Business Funding</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Financial Planning</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Islamic Finance</a></li>
-              <li class="mb-2"><a href="#" class="text-light text-decoration-none">Wealth Management</a></li>
-            </ul>
-          </div>
+         <div class="col-lg-3 col-md-6">
+                        <h5 class="text-white mb-4">Our Services</h5>
+                        <ul class="list-unstyled">
+                            <!-- Financial Planning Group -->
+                            <li class="mb-2">
+                                <a href="managing-your-wealth.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-chart-line me-2 text-primary"></i>Manage Your Wealth
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="securing-your-retirement.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-umbrella me-2 text-primary"></i>Securing Retirement
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="protecting-your-lifestyle.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-shield-alt me-2 text-primary"></i>Protecting Lifestyle
+                                </a>
+                            </li>
+
+                            <!-- Property & Business Group -->
+                            <li class="mb-2">
+                                <a href="mortgage-advice.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-home me-2 text-primary"></i>Mortgage Advice
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a href="commercial-finance.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-building me-2 text-primary"></i> Commercial Finance
+                                </a>
+                            </li>
+
+                            <!-- Estate Planning -->
+                            <li class="mb-2">
+                                <a href="wills-estate-planning.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-file-signature me-2 text-primary"></i>Wills & Estate Planning
+                                </a>
+                            </li>
+
+                            <!-- Islamic Finance -->
+                            <li class="mb-2">
+                                <a href="islamic-finance.html" class="text-light text-decoration-none">
+                                    <i class="fas fa-star-and-crescent me-2 text-primary"></i> Islamic Finance
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
           <!-- Contact Info -->
           <div class="col-lg-3 col-md-6">
