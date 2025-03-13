@@ -802,3 +802,189 @@ main {
     }
 }
 
+/* Wealth Management Styles */
+.wealth-manage-hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('../images/wealth\ advisor\ meeting.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    margin-top: 90px;
+}
+
+.wealth-manage-hero-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+.wealth-manage-info-box {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 15px;
+    border-left: 5px solid #D4AF37;
+}
+
+.wealth-manage-warning {
+    background: rgba(212, 175, 55, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.wealth-manage-goal-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.wealth-manage-goal-card:hover {
+    transform: translateY(-5px);
+}
+
+.wealth-manage-goal-card i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.wealth-manage-process-box {
+    background: #f8f9fa;
+    padding: 3rem;
+    border-radius: 20px;
+}
+
+.wealth-manage-step {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    height: 100%;
+    text-align: center;
+}
+
+.step-number {
+    background: #D4AF37;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.wealth-manage-review-box {
+    background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+    color: white;
+    padding: 3rem;
+    border-radius: 20px;
+    margin-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .wealth-manage-hero {
+        margin-top: 76px;
+    }
+    
+    .wealth-manage-hero-image {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    .wealth-manage-process-box {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .wealth-manage-step {
+        padding: 1.5rem;
+    }
+    
+    .wealth-manage-goal-card {
+        padding: 1rem;
+    }
+}
+
+/* mortgage advice section */
+
+/* Hero Section */
+.mortgage-advice-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/mortgage-advice.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 60vh;
+    padding-top: 120px;
+}
+
+.mortgage-advice-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Feature Cards */
+.mortgage-advice-feature-card {
+    background: #f8f9fa;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.mortgage-advice-feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.mortgage-advice-feature-card i {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Warning Box */
+.mortgage-advice-warning-box {
+    border-left: 4px solid #ffc107;
+}
+
+/* Content Sections */
+.mortgage-advice-intro {
+    position: relative;
+    padding: 3rem 0;
+}
+
+.mortgage-advice-intro:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 3px;
+    background: #D4AF37;
+}
+
+.mortgage-advice-purchase,
+.mortgage-advice-relationship {
+    padding: 4rem 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .mortgage-advice-hero {
+        min-height: 50vh;
+        padding-top: 100px;
+    }
+    
+    .mortgage-advice-feature-card {
+        padding: 1.5rem;
+    }
+}
